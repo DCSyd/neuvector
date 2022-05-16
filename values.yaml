@@ -1,0 +1,11 @@
+registry: docker.io
+k3s.enabled: true
+tag: 5.0.0
+manager.image.repository: neuvector/manager
+manager.svc.type: LoadBalancer
+controller.image.repository: neuvector/controller
+enforcer.image.repository: neuvector/enforcer
+cve.scanner.image.repository: neuvector/scanner
+cve.scanner.image.tag: latest
+cve.updater.image.repository: neuvector/updater
+cve.updater.image.tag: latest
