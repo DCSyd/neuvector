@@ -3,8 +3,8 @@ helm:
   chart: https://github.com/neuvector/neuvector-helm/archive/refs/tags/2.2.0.tar.gz
   values:
     registry: docker.io
-    k3s.enabled=true
-    tag=5.0.0
+    k3s.enabled: true
+    tag: 5.0.0
     manager.image.repository: neuvector/manager
     manager.svc.type: LoadBalancer
     controller.image.repository: neuvector/controller
