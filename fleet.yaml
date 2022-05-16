@@ -1,6 +1,6 @@
 namespace: neuvector
 helm:
-  chart: https://github.com/neuvector/neuvector-helm/archive/refs/tags/2.2.0.tar.gz
+  chart: https://github.com/neuvector/neuvector-helm/archive/refs/tags/2.2.0.zip
   values:
     registry: docker.io
     k3s.enabled: true
